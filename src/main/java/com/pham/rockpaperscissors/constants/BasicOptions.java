@@ -1,14 +1,13 @@
-package com.pham.rockpaperscissors.model;
+package com.pham.rockpaperscissors.constants;
 
-public enum AdvancedOptions {
+public enum BasicOptions {
     SCISSORS(1),
     ROCK(2),
-    WELL(3),
-    PAPER(4);
+    PAPER(3);
 
     private final int value;
     
-    private AdvancedOptions(int value){
+    private BasicOptions(int value){
         this.value = value;
     }
 

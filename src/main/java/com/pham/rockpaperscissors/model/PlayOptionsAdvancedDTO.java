@@ -1,5 +1,7 @@
 package com.pham.rockpaperscissors.model;
 
+import com.pham.rockpaperscissors.constants.AdvancedOptions;
+
 public class PlayOptionsAdvancedDTO {
     private AdvancedOptions playerChoice;
 

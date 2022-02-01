@@ -2,8 +2,8 @@ package com.pham.rockpaperscissors.service;
 
 import java.util.Random;
 
-import com.pham.rockpaperscissors.model.AdvancedOptions;
-import com.pham.rockpaperscissors.model.BasicOptions;
+import com.pham.rockpaperscissors.constants.AdvancedOptions;
+import com.pham.rockpaperscissors.constants.BasicOptions;
 import com.pham.rockpaperscissors.model.Game;
 import com.pham.rockpaperscissors.model.PlayOptionsAdvancedDTO;
 import com.pham.rockpaperscissors.model.PlayOptionsBasicDTO;

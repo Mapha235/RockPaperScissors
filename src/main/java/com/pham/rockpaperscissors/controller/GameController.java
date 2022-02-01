@@ -1,7 +1,10 @@
-package com.pham.rockpaperscissors.model;
+package com.pham.rockpaperscissors.controller;
 
 import javax.validation.Valid;
 
+import com.pham.rockpaperscissors.model.Game;
+import com.pham.rockpaperscissors.model.PlayOptionsAdvancedDTO;
+import com.pham.rockpaperscissors.model.PlayOptionsBasicDTO;
 import com.pham.rockpaperscissors.service.GameService;
 
 import org.springframework.beans.factory.annotation.Autowired;

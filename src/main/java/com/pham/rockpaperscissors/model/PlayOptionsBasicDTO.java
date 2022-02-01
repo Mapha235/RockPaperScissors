@@ -1,5 +1,7 @@
 package com.pham.rockpaperscissors.model;
 
+import com.pham.rockpaperscissors.constants.BasicOptions;
+
 public class PlayOptionsBasicDTO{
     private BasicOptions playerChoice;
 
