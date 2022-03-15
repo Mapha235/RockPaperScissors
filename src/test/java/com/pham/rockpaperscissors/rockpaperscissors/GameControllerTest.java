@@ -1,25 +1,17 @@
 package com.pham.rockpaperscissors.rockpaperscissors;
 
-import static org.mockito.Mockito.mock;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.pham.rockpaperscissors.constants.BasicOptions;
 import com.pham.rockpaperscissors.controller.GameController;
 import com.pham.rockpaperscissors.model.Game;
-import com.pham.rockpaperscissors.model.PlayOptionsAdvancedDTO;
-import com.pham.rockpaperscissors.model.PlayOptionsBasicDTO;
 import com.pham.rockpaperscissors.service.GameService;
 
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
