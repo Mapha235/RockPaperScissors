@@ -39,7 +39,7 @@ public class GameService {
         return game;
     }
 
-    private String checkWinner(int computerChoice, int playerChoice, int nrOfChoices) {
+    public String checkWinner(int computerChoice, int playerChoice, int nrOfChoices) {
         if (computerChoice == 1 && playerChoice == nrOfChoices) {
             return "Lose";
         } else if (playerChoice == 1 && computerChoice == nrOfChoices) {
